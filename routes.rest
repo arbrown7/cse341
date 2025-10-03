@@ -7,3 +7,14 @@ GET http://localhost:3000/contacts/68d84147dccf3fbca256e14d
 GET http://localhost:3000/contacts/68d84147dccf3fbca256e14e
 ###
 GET http://localhost:3000/contacts/68d84147dccf3fbca256e14f
+###
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Smith",
+  "email": "alice@example.com",l
+  "favoriteColor": "Blue",
+  "birthday": "2000-01-01"
+}
