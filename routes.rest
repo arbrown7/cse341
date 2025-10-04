@@ -12,9 +12,18 @@ POST http://localhost:3000/contacts
 Content-Type: application/json
 
 {
-  "firstName": "Alice",
-  "lastName": "Smith",
-  "email": "alice@example.com",l
+  "firstName": "test",
+  "lastName": "testing",
+  "email": "alice@example.com",
   "favoriteColor": "Blue",
   "birthday": "2000-01-01"
 }
+### 
+PUT http://localhost:3000/contacts/68e06785e864729483877541
+Content-type: application/json
+
+{
+"firstName":"Sarah", "lastName":"Birch", "email":"test@gmail.com", "favoriteColor":"Green", "birthday":"12/12/20"
+} 
+####
+DELETE http://localhost:3000/contacts/68e06785e864729483877541
